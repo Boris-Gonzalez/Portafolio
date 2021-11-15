@@ -1,0 +1,59 @@
+#informacion{
+    margin-top: 30px;
+}
+.container .foto img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border:solid 5px white;
+}
+#main .carousel-inner img{
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+#carousel .overlay .col-md-6{
+    text-align: center;
+}
+#carousel .overlay .col-md-4{
+    text-align: center;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+h2{
+    text-align: center;
+}
+.sobre-mi{
+    margin-top: 20px;
+}
+.proyectos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon img{
+    width: 85px;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+}
+.icon-card:hover{
+    color: darkred;
+}
+#contacto{
+    margin-top: 20px;
+}
